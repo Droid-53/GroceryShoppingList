@@ -1,0 +1,88 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "software design application",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "Wait",
+                        "Cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can i do",
+                        "what should i do",
+                        "how do i do this",
+                        "I need help",
+                        "Help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "Quit",
+                        "Stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Add",
+                    "slots": [
+                        {
+                            "name": "FoodItem",
+                            "type": "AMAZON.Food"
+                        }
+                    ],
+                    "samples": [
+                        "Work In {FoodItem} on my grocery list",
+                        "Make Room For {FoodItem} on my grocery list",
+                        "Insert {FoodItem} to my grocery list",
+                        "Append {FoodItem} to my grocery list",
+                        "Add {FoodItem} to my grocery list",
+                        "Put {FoodItem} on my grocery list",
+                        "Include {FoodItem} to my grocery list"
+                    ]
+                },
+                {
+                    "name": "Remove",
+                    "slots": [
+                        {
+                            "name": "FoodItem",
+                            "type": "AMAZON.Food"
+                        }
+                    ],
+                    "samples": [
+                        "Take out {FoodItem} from my grocery list",
+                        "Forget {FoodItem} from my grocery list",
+                        "Exclude {FoodItem} from my grocery list",
+                        "Drop {FoodItem} from my grocery list",
+                        "Throw away {FoodItem} from my grocery list",
+                        "Delete {FoodItem} from my grocery list",
+                        "Remove {FoodItem} from my grocery list",
+                        "Get rid of {FoodItem} from my grocery list"
+                    ]
+                },
+                {
+                    "name": "Test",
+                    "slots": [],
+                    "samples": [
+                        "testing ",
+                        "this is  a test",
+                        "test"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
